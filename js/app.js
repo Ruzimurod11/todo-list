@@ -111,7 +111,7 @@ formCreate.addEventListener("submit", (e) => {
     setTodos();
     showTodos();
   } else {
-    showMessage("message-create", "Please, Enter Some text...");
+    showMessage("message-create", "Iltimos, birorta tekst kiriting...");
   }
 });
 
@@ -158,7 +158,7 @@ formEdit.addEventListener("submit", (e) => {
     showTodos();
     close();
   } else {
-    showMessage("message-edit", "Please, Enter Some text...");
+    showMessage("message-edit", "Iltimos, birorta tekst kiriting...");
   }
 });
 
