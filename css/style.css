@@ -53,6 +53,7 @@ img:hover {
 
 .completed {
   opacity: 0.5;
+  text-decoration: line-through;
 }
 
 .container .list-group .list-group-item .todo-icons .img {
